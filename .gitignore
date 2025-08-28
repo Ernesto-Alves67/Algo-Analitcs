@@ -10,7 +10,7 @@
 *.dll
 *.dylib
 
-# Qt-es
+# Qt-specific
 object_script.*.Release
 object_script.*.Debug
 *_plugin_import.cpp
@@ -45,10 +45,42 @@ target_wrapper.*
 # QtCreator CMake
 CMakeLists.txt.user*
 
-# QtCreator 4.8< compilation database
+# QtCreator 4.8< compilation database 
 compile_commands.json
 
 # QtCreator local machine specific files for imported projects
 *creator.user*
 
 *_qmlcache.qrc
+
+# Build directories
+build/
+build-*/
+debug/
+release/
+
+# CLion
+.idea/
+cmake-build-*/
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.sln.docstates
+
+# macOS
+.DS_Store
+
+# Temporary files
+*~
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Application binaries
+*.exe
+*.app
+*.deb
+*.dmg
+*.rpm
