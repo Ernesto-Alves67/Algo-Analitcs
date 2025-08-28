@@ -1,0 +1,25 @@
+# Build folders
+build/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+
+# Qt Creator config
+*.pro.user
+*.qbs.user
+*.pro.user.*
+*.qbs.user.*
+
+# Qt generated files
+ui_*.h
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+
+# CLion config
+.idea/
+cmake-build-*/
